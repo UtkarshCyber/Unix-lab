@@ -1,0 +1,159 @@
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ now=$(date)
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ echo"$now"
+echoTuesday 22 November 2022 11:31:54 AM IST: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano hello world.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh hello
+Hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano hello 
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh hello
+Hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh hello world
+Hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano datefile.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh datefile.sh
+The date is
+Tuesday 22 November 2022 11:42:48 AM IST
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ gedit emp.lst
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm3.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3
+sh: 0: cannot open prgm3: No such file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh emp.lst
+emp.lst: 1: 101: not found
+emp.lst: 2: 102: not found
+emp.lst: 3: 103: not found
+emp.lst: 4: 104: not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3
+sh: 0: cannot open prgm3: No such file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+prgm3.sh: 2: echoEnter pattern to search\c: not found
+Utkarsh	
+prgm3.sh: 4: echoEnter file to use\c: not found
+prgm3
+Searching for  from file prgm3
+prgm3.sh: 7: grep prgm3: not found
+prgm3.sh: 8: echoSelected records shown: not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+prgm3.sh: 2: echoEnter pattern to search\c: not found
+Utkarsh
+prgm3.sh: 4: echoEnter file to use\c: not found
+emp.lst
+Searching for  from file emp.lst
+prgm3.sh: 7: grep emp.lst: not found
+prgm3.sh: 8: echoSelected records shown: not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+prgm3.sh: 2: echoEnter pattern to search\c: not found
+john
+prgm3.sh: 4: echoEnter file to use\c: not found
+emp.lst
+Searching for  from file emp.lst
+prgm3.sh: 7: grep emp.lst: not found
+prgm3.sh: 8: echoSelected records shown: not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+prgm3.sh: 2: echoEnter pattern to search\c: not found
+Utkarsh
+prgm3.sh: 4: echoEnter file to use\c: not found
+emp.lst
+Searching for  from file emp.lst
+prgm3.sh: 7: grep emp.lst: not found
+prgm3.sh: 8: echoSelected records shown: not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm3.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+Enter pattern to search Utkarsh 
+Enter file to useemp.lst
+Searching for  from file emp.lst
+101 Utkarsh 100000 CSE
+102 Ayush 20000 CSE
+103 Ryan 100000 ECE
+104 John 500000 ISC
+Selected records shown
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm3.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+Enter pattern to searchUtkarsh
+Enter file to useemp.lst
+Searching for  from file emp.lst
+101 Utkarsh 100000 CSE
+Selected records shown
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+Enter pattern to searchmani
+Enter file to useemp.lst
+Searching for  from file emp.lst
+Selected records shown
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm4.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm4.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+prgm4.sh: 6: Syntax error: Unterminated quoted string
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4
+sh: 0: cannot open prgm4: No such file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ prgm4.sh
+prgm4.sh: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+prgm4.sh: 6: Syntax error: Unterminated quoted string
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4
+sh: 0: cannot open prgm4: No such file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+prgm4.sh: 6: Syntax error: Unterminated quoted string
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm3.sh
+Enter pattern to searchutkarsh
+Enter file to useemp.lst
+Searching for  from file emp.lst
+Selected records shown
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm4.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+prgm4.sh: 6: Syntax error: Unterminated quoted string
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm4.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+Program:prgm4.sh THer number of arguments is 0 The arguments are 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+john
+john
+
+
+utkarsh
+utkarsh
+ryan
+ryan
+Utkarsh
+Utkarsh
+Utkarsh CSE
+Utkarsh CSE
+                    
+
+^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+Program:prgm4.sh The number of arguments is 0 The arguments are 
+^C          
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm4.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh John
+Program:prgm4.sh The number of arguments is 1 The arguments are John
+^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh John emp.lst
+Program:prgm4.sh The number of arguments is 2 The arguments are John emp.lst
+^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+Program:prgm4.sh The number of arguments is 0 The arguments are 
+^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ nano prgm4.sh
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh
+Program:prgm4.sh The number of arguments is 0 The arguments are 
+grep: : No such file or directory
+
+ ---- JOB OVER ----
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sh prgm4.sh Utkarsh emp.lst
+Program:prgm4.sh The number of arguments is 2 The arguments are Utkarsh emp.lst
+101 Utkarsh 100000 CSE
+
+ ---- JOB OVER ----
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ ^C
